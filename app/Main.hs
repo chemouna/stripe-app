@@ -19,7 +19,6 @@ main = do
   let config = StripeConfig (StripeKey (toBytestring "mykey"))
   print "Test"
 
-
 -- packEnv :: String -> IO B.ByteString
 -- packEnv = fmap B.pack . getEnv
 
